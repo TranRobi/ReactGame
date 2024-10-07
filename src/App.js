@@ -10,6 +10,8 @@ import { useState } from "react";
 function App() {
 	let [basket, setBasket] = useState([]);
 	let [adatName, setAdatName] = useState([]);
+	let [adat, setAdat] = useState([]);
+
 	return (
 		<>
 			<Navbar />
@@ -29,7 +31,15 @@ function App() {
 					/>
 					<Route
 						path="/basket"
-						element={<Basket data={Data} adatName={adatName} />}
+						element={
+							<Basket
+								setAdatName={setAdatName}
+								data={Data}
+								adatName={adatName}
+								adat={adat}
+								setAdat={setAdat}
+							/>
+						}
 					/>
 				</Routes>
 			</div>

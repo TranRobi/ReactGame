@@ -3,14 +3,14 @@
 		"name": "Tatra",
 		"id": 1,
 		"price": 9000,
-		"img": "../public/tatra.jpg"
+		"img": "tatra.jpg"
 	},
 
 	{
 		"name": "Zublovka",
 		"id": 2,
 		"price": 3000,
-		"img": "./zublovka.jfif"
+		"img": "zublovka.jfif"
 	},
 
 	{

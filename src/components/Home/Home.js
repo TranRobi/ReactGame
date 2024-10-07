@@ -3,7 +3,7 @@ function Home({ data, setBasket, basket, setAdatName, adatName }) {
 		basket.push(e);
 		setBasket([...basket]);
 
-		adatName.push(e.name);
+		adatName.push(e);
 		setAdatName([...adatName]);
 	};
 	return (
@@ -17,7 +17,7 @@ function Home({ data, setBasket, basket, setAdatName, adatName }) {
 							className="border-solid border-2 border-black w-fit p-4 m-5 text-center shadow-2xl rounded-r-lg"
 						>
 							<img
-								src={e.img}
+								src={"./" + e.img}
 								className="kepek border-solid border-black border-2"
 							/>
 							<h3>Név: {e.name}</h3>
