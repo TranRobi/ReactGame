@@ -37,8 +37,8 @@ function Basket({ data, adatName }) {
 							<p
 								className={
 									adatName.includes(item.name)
-										? "w-fit text-red-600"
-										: "w-fit text-green-600"
+										? "w-fit text-green-600"
+										: "w-fit text-red-600"
 								}
 							>
 								{item.name}

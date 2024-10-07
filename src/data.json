@@ -3,7 +3,7 @@
 		"name": "Tatra",
 		"id": 1,
 		"price": 9000,
-		"img": "tatra.jpg"
+		"img": "../public/tatra.jpg"
 	},
 
 	{
