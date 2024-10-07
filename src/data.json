@@ -1,0 +1,71 @@
+[
+	{
+		"name": "Tatra",
+		"id": 1,
+		"price": 9000,
+		"img": "tatra.jpg"
+	},
+
+	{
+		"name": "Zublovka",
+		"id": 2,
+		"price": 3000,
+		"img": "./zublovka.jfif"
+	},
+
+	{
+		"name": "Jaegermeister",
+		"id": 3,
+		"price": 5000,
+		"img": "jaeger.jpg"
+	},
+
+	{
+		"name": "Sierra",
+		"id": 4,
+		"price": 6000,
+		"img": "sierra.jfif"
+	},
+
+	{
+		"name": "Chivas",
+		"id": 5,
+		"price": 12000,
+		"img": "Chivas.jfif"
+	},
+
+	{
+		"name": "Jóbarát",
+		"id": 6,
+		"price": 400,
+		"img": "jobarat.jpg"
+	},
+
+	{
+		"name": "Kőbányai",
+		"id": 7,
+		"price": 300,
+		"img": "kobanyai.jfif"
+	},
+
+	{
+		"name": "Törley",
+		"id": 8,
+		"price": 1400,
+		"img": "torley.jfif"
+	},
+
+	{
+		"name": "Bombay",
+		"id": 9,
+		"price": 10000,
+		"img": "bombay.jpg"
+	},
+
+	{
+		"name": "Várda keserű tüske",
+		"id": 10,
+		"price": 325,
+		"img": "tuske.jfif"
+	}
+]
